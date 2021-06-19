@@ -1,0 +1,142 @@
+@import url('https://use.typekit.net/olx2yws.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+html
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after
+{
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	outline: none;
+}
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	text-rendering: geometricPrecision;
+	-webkit-font-feature-settings: "kern" 1;
+	font-feature-settings: "kern" 1;
+    font-weight: 400;
+    /* font-family: 'proxima-nova', Helvetica, Arial, sans-serif; */
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #F3F3FF;
+}
+
+.inner
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 764px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.paper
+{
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding: 32px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+}
+
+.paper .icon
+{
+    height: 128px;
+    width: 128px;
+    border-radius: 64px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('./assets/icon.jpg');
+}
+
+.paper h2
+{
+    color: #666;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.paper .line
+{
+    height: 1px;
+    background-color: #DDD;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paper .tldr
+{
+    background-color: rgba(0, 128, 255, 0.1);
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+.paper .tldr .label
+{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.paper .tldr .content
+{
+    font-size: 120%;
+    line-height: 200%;
+}
+
+.paper .tldr .buttons
+{
+    padding-top: 20px;
+}
+
+.paper .tldr .buttons a
+{
+    display: inline-block;
+    border-radius: 4px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: rgba(0, 0, 0, 0.05); */
+    background-color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    color: #08F;
+    margin-right: 8px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.paper .tldr .buttons a:active
+{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.paper .section
+{
+    padding-top: 20px;
+}
+
+.paper p
+{
+    font-size: 120%;
+    line-height: 200%;
+}
+
+.paper p a
+{
+    color: #08F;
+    font-weight: 600;
+}
